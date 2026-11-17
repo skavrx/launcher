@@ -293,7 +293,7 @@ void UILaunchPage::create_app_container(lv_obj_t *parent)
     const size_t selected_page = launch_ ? launch_->current_app_index() : 0;
     elements[kPageSlider] = create_page_slider(container, page_count, selected_page);
 
-    elements[kTitleCenter] = create_carousel_title(container, kSlots[kTitleCenter], 100, "CLI");
+    elements[kTitleCenter] = create_carousel_title(container, kSlots[kTitleCenter], 80, "CLI");
     elements[kTitleRight] = create_carousel_title(container, kSlots[kTitleRight], 80, "GAME");
     elements[kTitleLeft] = create_carousel_title(container, kSlots[kTitleLeft], 80, "STORE");
 

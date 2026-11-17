@@ -26,12 +26,12 @@ inline constexpr size_t kPanelCount = 5;
 inline constexpr size_t kTitleOffset = kPanelCount;
 inline constexpr size_t kElementCount = kPanelCount * 2;
 inline constexpr lv_coord_t kSideCardRadius = 17;
-inline constexpr lv_coord_t kCenterCardRadius = 22;
+inline constexpr lv_coord_t kCenterCardRadius = 17;
 
 inline constexpr std::array<Slot, kElementCount> kSlots = {{
     {-177, 4, 61, 61, true},
     {-99, -6, 80, 80, false},
-    {0, -16, 100, 100, false},
+    {0, -6, 80, 80, false},
     {99, -6, 80, 80, false},
     {177, 4, 61, 61, true},
     {-177, 50, 0, 0, true},
